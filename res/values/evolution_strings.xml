@@ -562,4 +562,9 @@
     <string name="systemui_restart_message">For all changes to take effect, a SystemUI restart is required. Restart SystemUI now?</string>
     <string name="systemui_restart_cancel">Cancel</string>
     <string name="systemui_restart_ok">Ok</string>
+
+    <!-- Qs Transparency -->
+    <string name="qs_cust_category">Qs Customizaions</string>
+    <string name="qs_transparency_summary">Choose how transparent you want your qs to be</string>
+    <string name="qs_transparency_title">Qs Transparency</string>
 </resources>

@@ -102,6 +102,17 @@
             android:title="@string/quick_settings_floating_clear_all_title"
             android:summary="@string/quick_settings_floating_clear_all_summary"
             android:defaultValue="false" />
+
+        <!-- QS Transparency -->
+        <org.evolution.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qs_transparency"
+            android:title="@string/qs_transparency_title"
+            android:summary="@string/qs_transparency_summary"
+            android:defaultValue="100"
+            settings:interval="1"
+            android:max="100"
+            settings:units="%"
+            android:min="1" />
     </PreferenceCategory>
 
     <PreferenceCategory
