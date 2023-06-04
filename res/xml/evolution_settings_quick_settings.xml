@@ -103,6 +103,13 @@
             android:summary="@string/quick_settings_floating_clear_all_summary"
             android:defaultValue="false" />
 
+        <!-- QS dual tone -->
+        <org.evolution.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_dual_tone"
+            android:title="@string/qs_dual_tone_title"
+            android:summary="@string/qs_dual_tone_summary"
+            android:defaultValue="true" />
+
         <!-- QS Transparency -->
         <org.evolution.settings.preferences.SystemSettingSeekBarPreference
             android:key="qs_transparency"
